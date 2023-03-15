@@ -1,0 +1,8 @@
+python 3.9
+pandas
+numpy
+sklearn
+xgboost
+matplotlib
+plotly
+seaborn
