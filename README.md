@@ -3,7 +3,7 @@
 Analyzed given dataset and build a regression model. Predictions for internship_hidden_test.csv file can be found [here](test_with_predicted_target.csv).
 First and second test tasks are [in this notebook](Tasks_1_and_2/Quantum_DS_Test_Tasks(1-2).ipynb).
 ## Analysis
-Given dataset has got 53 anonymized features and a target column. There are no missing values or repeated rows in both test and train dataset. Box plots show no outliers. 
+Given dataset has got 53 anonymized features and a target column. There are no missing values or repeated rows in both test and train datasets. Box plots show no outliers
 &nbsp;
 
 ![box plots](Images/box_plots1.jpg)
@@ -27,7 +27,7 @@ Plotting column 6:
 Column 8 actually has only two unique values: 0 and 1 
 
 ## Feature Importance and Regression Model
-Feature elimination can actually be quite tricky. Removing any data from dataset needs to be done very carefully, ecpesially considering the fact that actual features' natrue in unknown.
+Feature elimination can actually be quite tricky. Removing any data from dataset needs to be done very carefully, ecpesially considering the fact that actual features' natrue is unknown.
 &nbsp;
 
 An XGBoost model was built to examine feature importance. 
